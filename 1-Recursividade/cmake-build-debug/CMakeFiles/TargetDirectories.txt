@@ -1,0 +1,3 @@
+C:/Program Files (x86)/Clion/Listas Thiago/1-Recursividade/cmake-build-debug/CMakeFiles/1_Recursividade.dir
+C:/Program Files (x86)/Clion/Listas Thiago/1-Recursividade/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Program Files (x86)/Clion/Listas Thiago/1-Recursividade/cmake-build-debug/CMakeFiles/rebuild_cache.dir
