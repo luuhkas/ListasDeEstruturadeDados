@@ -5,4 +5,6 @@
 #ifndef HEADERS_H
 #define HEADERS_H
 
+int inverter_numero(int numero);
+
 #endif //HEADERS_H
