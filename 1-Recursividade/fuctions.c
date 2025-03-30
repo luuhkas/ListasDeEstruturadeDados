@@ -74,7 +74,7 @@ void menu()
     case 5:
         int vet2[100];
 
-        for (int i = 0; i < 100; i++)
+        for (int i = 0; i < 100; i++) // apenas para criar um vetor de 100 numeros
         {
             vet2[i] = i + 1;
             printf("%d ", vet2[i]);
@@ -84,7 +84,7 @@ void menu()
 
         invert_elementos(vet2, 0, 99);
 
-        for (int i = 0; i < 100; i++)
+        for (int i = 0; i < 100; i++) // apenas para verificar se foi invertido corretamente
             printf("%d ", vet2[i]);
 
         break;
@@ -177,12 +177,15 @@ elementos presentes no vetor.
 
 void invert_elementos(int* vet, int primeiro, int ultimo)
 {
-    if (primeiro >= ultimo)
+    if (primeiro >= ultimo) // caso base
         return;
 
     int aux = vet[primeiro];
     vet[primeiro] = vet[ultimo];
     vet[ultimo] = aux;
 
-    invert_elementos(vet, primeiro + 1, ultimo - 1);
+    invert_elementos(vet, primeiro + 1, ultimo - 1); // chamada recursiva
 }
+
+// lógica um pouco mais dificil. Mas cheguei na conclusao de andar com o primeiro pra direita do vetor e o ultimo
+// pra esquerda do mesmo.
