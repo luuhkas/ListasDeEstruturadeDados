@@ -3,12 +3,6 @@
 
 int main()
 {
-    int numero;
-
-    printf("Digie um numero para ver o inverso: ");
-    scanf("%d", &numero);
-
-    inverter_numero (numero);
-
+    menu();
     return 0;
 }
