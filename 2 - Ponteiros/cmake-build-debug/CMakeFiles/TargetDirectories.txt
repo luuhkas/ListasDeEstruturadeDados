@@ -1,0 +1,3 @@
+C:/Program Files (x86)/Clion/Listas Thiago/2 - Ponteiros/cmake-build-debug/CMakeFiles/2_Ponteiros.dir
+C:/Program Files (x86)/Clion/Listas Thiago/2 - Ponteiros/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Program Files (x86)/Clion/Listas Thiago/2 - Ponteiros/cmake-build-debug/CMakeFiles/rebuild_cache.dir
